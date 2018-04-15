@@ -150,6 +150,10 @@ article .familyImage{
     color: white;
     
 }
+.videoContent{
+  font-size: 26px;
+  font-style: italic;
+}
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
