@@ -145,6 +145,11 @@ article img{
     margin-left: 50px;
 }
 
+.footer {
+    background-color: rgb(52, 49, 94);
+    border-top: 1.5px solid white;
+}
+
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
@@ -152,6 +157,7 @@ article img{
 
 @media screen and (max-width: 768px){
     .navlogo-white.png {visibility: hidden;}
+    .icon-bar {visibility: hidden;}
     body {background-image: url(images/mBackground.png);}
 }
 
@@ -160,5 +166,5 @@ article img{
 }
 
 @media only screen and (max-width: 28em) {
-article img {float: none; padding-bottom: 5px; max-width: 100%;
+article img {float: none; padding-bottom: 5px; max-width: 100%;}
 };
