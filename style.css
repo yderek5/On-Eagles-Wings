@@ -166,6 +166,27 @@ article .familyImage{
   margin-top: 3%;
 }
 
+.progpic{
+   width: 30%;
+   height: auto;
+   float: left;
+   padding-right: 3%;
+   padding-bottom: 10px;
+ }
+ .skillprogpic{
+    width: 30%;
+   height: 10%;
+   float: left;
+   padding-right: 3%;
+   padding-bottom: 10px;
+ }
+ .equineprogpic{
+  width: 30%;
+   height: 8%;
+   float: left;
+   padding-right: 3%;
+   padding-bottom: 10px;
+ }
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
