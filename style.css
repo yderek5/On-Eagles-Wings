@@ -98,17 +98,12 @@ article .familyImage{
       color: white;
   }
 
-  .linkedin {
-    background: #007bb5;
+  .wordpress {
+    background: #3B5998;
     color: white;
   }
 
-  .youtube {
-    background: #bb0000;
-    color: white;
-  }
-
-  .icon {
+ .icon {
       border-radius: 50%;
       border: 1.5px solid white;
   }
@@ -166,6 +161,7 @@ article .familyImage{
   margin-top: 3%;
 }
 
+
 .progpic{
    width: 30%;
    height: auto;
@@ -193,6 +189,11 @@ article .familyImage{
  #who-we-serve{
     font-family: 'EB Garamond', serif;
  }
+
+.marginTop {
+    margin-top: 2%;
+}
+
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
