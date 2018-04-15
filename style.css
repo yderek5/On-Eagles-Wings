@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(rgba(52,49,94,.2), rgba(52,49,94,.2)), url("images/backgroundlake_test.jpg");
+    background-image: linear-gradient(rgba(52, 49, 94,.4), rgba(52, 49, 94,.4)), url("images/backgroundlake_test.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -40,9 +40,13 @@ form {
   width: 300px;
   height: 300px;
 }*/
-article img{
+article .familyImage{
    width: 40%; float: left; padding-right: 3%; padding-bottom: 10px;
  }
+
+#Administration, #Board, #Story {
+  text-align: center;
+}
 
 /* .familyImage{
     width: 360px;
@@ -145,6 +149,11 @@ article img{
     margin-left: 50px;
 }
 
+.footer {
+    background-color: rgb(52, 49, 94);
+    border-top: 1.5px solid white;
+}
+
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
@@ -152,7 +161,8 @@ article img{
 
 @media screen and (max-width: 768px){
     .navlogo-white.png {visibility: hidden;}
-    body {background-image: url(images/mBackground.png);}
+    .icon-bar {visibility: hidden;}
+    body {background-image: linear-gradient(rgba(52, 49, 94,.4), rgba(52, 49, 94,.4)), url(images/mBackground.png);}
 }
 
 @media screen and (min-width: 1024px){
@@ -160,5 +170,5 @@ article img{
 }
 
 @media only screen and (max-width: 28em) {
-article img {float: none; padding-bottom: 5px; max-width: 100%;
+article img {float: none; padding-bottom: 5px; max-width: 100%;}
 };
