@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(rgba(52, 49, 94,.4), rgba(52, 49, 94,.4)), url("images/backgroundlake_test.jpg");
+    background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.2)), url("images/backgroundlake_test.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -172,3 +172,4 @@ article .familyImage{
 @media only screen and (max-width: 28em) {
 article img {float: none; padding-bottom: 5px; max-width: 100%;}
 };
+}
