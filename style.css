@@ -172,6 +172,7 @@ article .familyImage{
    float: left;
    padding-right: 3%;
    padding-bottom: 10px;
+   border-radius: 20%;
  }
  .skillprogpic{
     width: 30%;
@@ -179,6 +180,7 @@ article .familyImage{
    float: left;
    padding-right: 3%;
    padding-bottom: 10px;
+   border-radius: 20%;
  }
  .equineprogpic{
   width: 30%;
@@ -186,6 +188,8 @@ article .familyImage{
    float: left;
    padding-right: 3%;
    padding-bottom: 10px;
+   border-radius: 20%;
+   margin-bottom: 5%;
  }
  #myVideo{
   border-color: rgb(52, 49, 94, .9);
